@@ -16,6 +16,7 @@ nav{
     display: flex;
     justify-content:space-around;
     align-items: center;
+    margin-top: 20px;
 }
 .links a{
     text-decoration: none;
@@ -62,6 +63,7 @@ nav{
     text-align: center;
     display: grid;
     grid-template-columns: repeat(4 ,1fr);
+    padding: 20px 70px;
 }
 .card{
     height: 100%;
@@ -76,12 +78,38 @@ nav{
     font-weight: bold;
 }
 .btn{
-    width:100% ;
+    width:95% ;
     background-color: #E95A08;
     border: 0;
     height: 30px ;
     color: white;
     margin-top: 20px;
+}
+.batch{
+    width: 250px;
+    position: absolute;
+    bottom:-1280px;
+    left: 450px;
+
+}
+.lover-banner{
+    display: flex;
+    padding: 80px;
+}
+.Lover-image{
+    
+}
+.lover-text {
+    padding-left: 90px;
+    padding-top: 70px;
+}
+.lover-text h1{
+    font-size: 50px;
+}
+.lover-text li{
+    font-size: 22px;
+    margin-top: 30px;
+    color:rgba(0, 0, 0, 0.5)  ;
 }
 
 
@@ -123,8 +151,29 @@ nav{
     }
     .card-parent{
         grid-template-columns: repeat( 2 ,1fr);
+        padding: 5px;
     }
     .card img{
         width: 165px;
+    }
+    .batch{
+        display: none;
+    }
+    .lover-banner{
+        flex-direction: column;
+        padding: 10px;
+    }
+    .lover-text{
+        padding: 10px;
+    }
+    .Lover-image{
+        width: 358px;
+        height: 380px;
+    }
+    .lover-text h1{
+        font-size: 24px;
+    }
+    .lover-text li{
+        font-size: 14px;
     }
 }
