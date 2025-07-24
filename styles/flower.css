@@ -1,0 +1,39 @@
+body{
+    background-color: #f7f9ff;
+}
+.noto-serif-font {
+  font-family: "Noto Serif", serif;}
+.inter-font {
+  font-family: "Inter", sans-serif;}
+
+
+    /* navbar */
+
+nav{
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.links a{
+    text-decoration: none;
+    margin-right: 30px;
+    color: black;
+}
+.another-cart{
+    display: none;
+}
+
+
+@media screen and (max-width:375px){
+    .links a{
+        display: none;
+    }
+    header{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .another-cart{
+        display: block;
+    }
+}
