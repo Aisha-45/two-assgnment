@@ -232,6 +232,9 @@ footer{
     font-size: 24px;
     color: rgba(0, 0, 0, 0.5);
 }
+.tag-four img{
+    margin-left: 10px;
+}
 
 
 @media screen and (max-width:375px){
