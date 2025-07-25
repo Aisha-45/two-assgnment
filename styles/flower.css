@@ -214,7 +214,25 @@ nav{
     display: flex;
     justify-content: center;
 }
-
+footer{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+}
+.tag-one{
+    width: 350px;
+}
+.tag-one p{
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    margin-top: 20px;
+}
+.tag-two li ,.tag-three li{
+    list-style: none;
+    margin-top: 20px;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.5);
+}
 
 
 @media screen and (max-width:375px){
