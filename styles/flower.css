@@ -227,8 +227,7 @@ footer{
     color: rgba(0, 0, 0, 0.5);
     margin-top: 20px;
 }
-.tag-two li ,.tag-three li{
-    list-style: none;
+.tag-two p ,.tag-three p{
     margin-top: 20px;
     font-size: 24px;
     color: rgba(0, 0, 0, 0.5);
@@ -338,4 +337,13 @@ footer{
     .end h2{
         font-size: 24px;
     }
+    footer{
+        flex-direction: column;
+        gap: 50px;
+        padding: 10px;
+    }
+    .tag-one p ,.tag-three p ,.tag-two p{
+        font-size: 14px;
+    }
+
 }
